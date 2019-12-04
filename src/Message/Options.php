@@ -103,6 +103,8 @@ class Options implements Arrayable
             'time_to_live' => $this->timeToLive,
             'restricted_package_name' => $this->restrictedPackageName,
             'dry_run' => $dryRun,
+            'apns-push-type' => 'background'
+
         ];
 
         return array_filter($options);
